@@ -5,7 +5,7 @@ from authentication.models import User
 class Orders(models.Model):
     
     VEHICLE_OPTIONS = [
-        ('BIKE', 'BIKE'),
+        ('MOTORBIKE', 'MOTORBIKE'),
         ('CAR', 'CAR'),
         ('VAN', 'VAN'),
         ('TRUCK', 'TRUCK')
