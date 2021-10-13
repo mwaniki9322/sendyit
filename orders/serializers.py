@@ -8,4 +8,4 @@ class OrderSerializer(serializers.ModelSerializer):
 
     class Meta:
         model=Orders
-        fields=['id','date','vehicle','description','pickup_location','destination','reciever_name','reciever_number','weight']
+        fields=['owner','id','date','vehicle','description','pickup_location','destination','reciever_name','reciever_number','weight']
